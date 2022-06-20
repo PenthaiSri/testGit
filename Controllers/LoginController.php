@@ -14,9 +14,12 @@ class LoginController {
     }
 
     /**
-     * Méthode appelé lors de la réinitialisation d'un mot de passe
+     * Méthode permettant de créer un utilisateur et l'enregistrer en base de données
+     * 
+     * @version 1.2206.0
+     * @return  bool
      */
-    public function resetPassword()
+    public function create()
     {
         // Charge les models
         $oUserModel = new User();
