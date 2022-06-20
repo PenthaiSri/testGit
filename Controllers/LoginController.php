@@ -24,16 +24,4 @@ class LoginController {
         // Charge les models
         $oUserModel = new User();
     }
-
-    /**
-     * Méthode deleteUser
-     * 
-     * @version 1.2206.0
-     * @return  bool
-     */
-    public function deleteUser()
-    {
-        // Charge les models
-        $oUserModel = new User();
-    }
 }
