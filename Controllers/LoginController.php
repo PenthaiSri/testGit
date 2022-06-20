@@ -12,4 +12,13 @@ class LoginController {
         //Charge les models
         $oUserModel = new User();
     }
+
+    /**
+     * Méthode appelé lors de la réinitialisation d'un mot de passe
+     */
+    public function resetPassword()
+    {
+        // Charge les models
+        $oUserModel = new User();
+    }
 }
