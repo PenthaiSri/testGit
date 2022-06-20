@@ -12,4 +12,16 @@ class LoginController {
         //Charge les models
         $oUserModel = new User();
     }
+
+    /**
+     * Méthode permettant de créer un utilisateur et l'enregistrer en base de données
+     * 
+     * @version 1.2206.0
+     * @return  bool
+     */
+    public function create()
+    {
+        // Charge les models
+        $oUserModel = new User();
+    }
 }
